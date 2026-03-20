@@ -45,4 +45,17 @@
 `help` | `Mostra ajuda sobre um comando` | `windows` | `help copy` |
 `chkdsk` | `Verifica erros no disco rígido` | `windows` | `chkdsk C: /f` |
 `exit` | `Fecha o terminal atual` | `ambos` | `exit` |
+
+## Dica de Ouro: O Comando "Salva-Vidas"
+
+Dentre todos esses, o comando que eu considero o mais útil e, às vezes, difícil de lembrar os detalhes, é o taskkill.
+
+Por que ele é importante?
+Sabe quando um programa (como um jogo ou o navegador) trava totalmente, a tela fica "congelada" e você não consegue nem abrir o Gerenciador de Tarefas (Ctrl+Alt+Del) direito?
+
+Se você tiver um terminal aberto, basta digitar taskkill /f /im nome_do_programa.exe.
+
+O /f significa Forçar: ele não pede licença, ele encerra o processo na hora.
+
+É a ferramenta definitiva para retomar o controle do seu PC sem precisar reiniciar o computador no botão.
  ---
